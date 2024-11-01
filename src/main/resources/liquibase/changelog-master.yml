@@ -1,0 +1,3 @@
+databaseChangeLog:
+  - include:
+      file: liquibase/rule_table.sql

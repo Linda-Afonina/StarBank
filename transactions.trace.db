@@ -5,3 +5,11 @@ SELECT DISTINCT t.USER_ID FROM TRANSACTIONS tINNER JOIN PRODUCTS p ON t.PRODUCT_
 2024-10-18 23:45:46.037133+03:00 jdbc[3]: exception
 org.h2.jdbc.JdbcSQLDataException: Ошибка преобразования данных при конвертации "UUID to INTEGER"
 Data conversion error converting "UUID to INTEGER" [22018-224]
+2024-11-01 14:19:34.642297+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Таблица "DYNAMIC_RULES" не найдена
+Table "DYNAMIC_RULES" not found; SQL statement:
+SELECT * FROM dynamic_rules [42102-224]
+2024-11-01 14:25:58.566624+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Таблица "DYNAMIC_RULES" не найдена
+Table "DYNAMIC_RULES" not found; SQL statement:
+SELECT * FROM dynamic_rules [42102-224]
