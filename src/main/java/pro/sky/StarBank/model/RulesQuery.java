@@ -5,24 +5,24 @@ import java.util.Objects;
 
 public class RulesQuery {
 
-    private String query;
+    private QueryType query;
     private List<String> arguments;
     private boolean negate;
 
     public RulesQuery() {
     }
 
-    public RulesQuery(String query, List<String> arguments, boolean negate) {
+    public RulesQuery(QueryType query, List<String> arguments, boolean negate) {
         this.query = query;
         this.arguments = arguments;
         this.negate = negate;
     }
 
-    public String getQuery() {
+    public QueryType getQuery() {
         return query;
     }
 
-    public void setQuery(String query) {
+    public void setQuery(QueryType query) {
         this.query = query;
     }
 
